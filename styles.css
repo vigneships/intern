@@ -1,0 +1,106 @@
+/* ----------- Global Styles (Element Selector) ----------- */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ----------- Header & Navigation ----------- */
+header {
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Hover Effect on Links */
+nav a:hover {
+    text-decoration: underline;
+    color: #ffeb3b;
+}
+
+/* ----------- Main Content ----------- */
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ----------- Section Styling (Class Selector) ----------- */
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ----------- Profile Image ----------- */
+img {
+    display: block;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #1f4037;
+}
+
+/* ----------- Skills List ----------- */
+ul {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+ul li {
+    padding: 6px 0;
+}
+
+/* ----------- Contact Form (ID Selector) ----------- */
+#contact form {
+    max-width: 450px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ----------- Button Styling ----------- */
+button {
+    background-color: #1f4037;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect on Button */
+button:hover {
+    background-color: #99f2c8;
+    color: #1f4037;
+    transform: scale(1.05);
+}
+
+/* ----------- Footer ----------- */
+footer {
+    background-color: #1f4037;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
