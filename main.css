@@ -1,0 +1,23 @@
+:root {
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --primary: #1f4037;
+  --accent: #99f2c8;
+  --text: #333;
+  --radius: 12px;
+  --shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Dark theme via class toggle */
+.theme--dark {
+  --bg: #121212;
+  --card: #1e1e1e;
+  --text: #ffffff;
+}

@@ -1,9 +1,23 @@
 # Personal Portfolio Website
 
-This is a simple personal portfolio website built using **HTML5 and CSS**.  
-It showcases basic personal information, skills, and a contact form.
+## Overview
+A modern personal portfolio website designed using HTML5, advanced CSS, and JavaScript.
 
----
+## Technologies Used
+- HTML5 (Semantic Markup)
+- CSS Grid & Flexbox
+- CSS Variables
+- BEM Methodology
+- JavaScript DOM Manipulation
 
-## 📁 Project Structure
+## Features
+- Responsive mobile-first layout
+- Dark / Light theme switcher
+- CSS animations & transitions
+- Clean folder structure
 
+## How to Run
+Open `index.html` in any modern browser.
+
+## Screenshots
+See `screenshots/` folder.
